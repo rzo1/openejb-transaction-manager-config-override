@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  The uber jar is a single module, so restrict scanning to our own classes
+  instead of the container internals that were shaded into it.
+-->
+<scan>
+  <classes/>
+  <packages>
+    <package>org.example.txtimeout</package>
+  </packages>
+</scan>
